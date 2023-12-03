@@ -15,7 +15,7 @@ app.use("/auth",userRouter);
 app.use("/recipes",recipesRouter);
 
 
-mongoose.connect("mongodb+srv://moshe123bs:oQ1ljHD0SDVpSU4O@recipes.t3ngyac.mongodb.net/recipes?retryWrites=true&w=majority")
+mongoose.connect("Secret")
 
 app.listen(3001 , () => console.log("Server Started"));
 
