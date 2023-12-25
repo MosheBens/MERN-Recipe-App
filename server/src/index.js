@@ -15,7 +15,7 @@ app.use("/auth",userRouter);
 app.use("/recipes",recipesRouter);
 
 
-mongoose.connect("Secret")
+mongoose.connect("")
 
 app.listen(3001 , () => console.log("Server Started"));
 
